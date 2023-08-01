@@ -1,68 +1,44 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Web App for Course Subscription - README
 
-## Available Scripts
+Welcome to our Web App for Course Subscription! This application is built using Express.js for the backend, MongoDB for the database, and React.js for the frontend.
 
-In the project directory, you can run:
+![Express.js](https://img.shields.io/badge/Express.js-%3E%3D4.17-green.svg)
+![MongoDB](https://img.shields.io/badge/MongoDB-%3E%3D4.4-green.svg)
+![React.js](https://img.shields.io/badge/React.js-%3E%3D17-blue.svg)
 
-### `npm start`
+## Table of Contents
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+1. [Introduction](#introduction)
+2. [Prerequisites](#prerequisites)
+3. [Installation](#installation)
+4. [Features](#features)
+5. [API Routes](#api-routes)
+6. [User Guide](#user-guide)
+7. [Admin Guide](#admin-guide)
+8. [Contributing](#contributing)
+9. [License](#license)
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## :pencil2: Introduction
 
-### `npm test`
+Our Web App for Course Subscription allows users to access premium courses in various domains, including Web Development, App Development, Cloud Computing, Data Science, Machine Learning, Artificial Intelligence, Blockchain, Cyber Security, and Data Engineering. Users can subscribe to gain access to these courses, and they can interact with the content through comments and likes.
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## :wrench: Prerequisites
 
-### `npm run build`
+Before running the web app, ensure you have the following installed:
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Node.js (version >= 14)
+- MongoDB (version >= 4.4)
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+## :gear: Installation
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Follow these steps to set up the web app locally:
 
-### `npm run eject`
+1. Clone this repository to your local machine.
+2. Install the required dependencies for both backend and frontend using npm:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+```bash
+cd backend
+npm install
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+cd ../frontend
+npm install
